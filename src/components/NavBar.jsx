@@ -3,7 +3,7 @@ export default function NavBar({ pages }){
     return(
         <nav>
             <div className="navbar-brand">
-                <Link to="/"> Projects App</Link>
+                <Link to="/">My blog</Link>
             </div>
             <div className="navbar-links">
                 <Link to="/" className="nav-link"> Home </Link>
