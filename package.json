@@ -1,7 +1,7 @@
 {
   "name": "my-vite-app",
   "version": "0.1.0",
-  "homepage": "https://twoj-github-username.github.io/nazwa-repozytorium",
+  "homepage": "https://ZajacPi.github.io/my-blog",
   "private": true,
   "dependencies": {
     "react": "^18.0.0",
