@@ -1,0 +1,9 @@
+.title {
+    user-select: none; 
+}
+
+.typed-text{
+    user-select: none;  
+     pointer-events: none; 
+    color: red;
+}

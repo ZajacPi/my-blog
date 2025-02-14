@@ -7,7 +7,7 @@ export default function Project({title, url, date}) {
       <h2>{title}</h2>
       <div className="project-card">
         <div className="project-thumbnail">
-          <img src={url} alt={title} width="500" height="600"/>
+          <img src={url} alt={title} width="500"/>
           <div className="project-overlay">
             <button className="read-button" onClick={readMore}>
               Read More
