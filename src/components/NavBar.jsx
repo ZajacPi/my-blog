@@ -8,7 +8,9 @@ export default function NavBar({ pages }){
             <div className="navbar-links">
                 <Link to="/" className="nav-link"> Home </Link>
                 <Link to="/projects" className="nav-link"> Projects </Link>
+                <button className="nav-link">Contact me</button>
             </div>
+           
         </nav>
     )
 

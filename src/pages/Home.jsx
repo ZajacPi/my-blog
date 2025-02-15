@@ -1,4 +1,8 @@
- import "../css/Home.css"
+import LogoButton from "../components/LogoButton";
+import GitHub_logo from "../assets/github-mark-white.svg";
+import LinkedIn_logo from "../assets/LinkedIn_icon.png"
+import LeetCode_logo from "../assets/LeetCode_Logo.png"
+import "../css/Home.css"
 
 import { ReactTyped } from "react-typed";
 
@@ -15,6 +19,13 @@ export default function Home(){
                 backSpeed={40}
                 loop />
             </h2>
+         
+            <h2> My profiles </h2>
+            <div className="button_container">
+                <LogoButton logo={GitHub_logo}   text="GitHub"   link="https://github.com/ZajacPi"/>
+                <LogoButton logo={LinkedIn_logo} text="LinkedIn" link="https://www.linkedin.com/in/piotr-zaj%C4%85c-6a3821269/"/>
+                <LogoButton logo={LeetCode_logo} text="LeetCode" link="https://leetcode.com/u/PiterZPiter/"/>
+            </div>
         </div>
     )
 }
